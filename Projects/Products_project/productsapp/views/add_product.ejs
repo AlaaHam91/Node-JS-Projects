@@ -1,0 +1,101 @@
+<%- include('partials/header'); -%>
+
+<html>
+  <div class="container">
+    <% if(message !=""){%>
+    <p class="text-center h1 text-danger"><%=message%></p>
+    <%}%>
+
+    <form
+      style="margin-top: 50px; margin-bottom: 100px;"
+      action=""
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="category">Cateory:</label>
+          <select name="category" id="category" require class="form-control">
+            <option selected disabled>Choose Cateory</option>
+            <option>Samsung</option>
+            <option>Sony</option>
+            <option>Starcom</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="title">Title:</label>
+
+          <input
+            type="text"
+            name="title"
+            id="title"
+            class="form-control"
+            required
+            placeholder="Title"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="description">Description:</label>
+
+          <textarea
+            type="text"
+            rows="10"
+            cols="3"
+            name="description"
+            id="description"
+            class="form-control"
+            required
+            placeholder="Discription"
+          ></textarea>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="quantity">Quantity:</label>
+
+          <input
+            type="number"
+            name="quantity"
+            id="quantity"
+            class="form-control"
+            required
+            placeholder="Quantity"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="price">Price:</label>
+
+          <input
+            type="number"
+            name="price"
+            id="price"
+            class="form-control"
+            required
+            placeholder="Price"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="image">Product image:</label>
+          <input
+            type="file"
+            name="image"
+            id="image"
+            class="form-control"
+            required
+          />
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Add</button>
+      </div>
+    </form>
+  </div>
+</html>

@@ -1,0 +1,79 @@
+{
+    "customersData": [
+        {
+            "country": "Syria",
+            "customers": [
+                {
+                    "custNo": "1001422",
+                    "custName": "Ali Al Mohammad",
+                    "title": "Mr",
+                    "email": "ali@yahoo.com",
+                    "phone": "011556888",
+                    "gender": "M",
+                    "custImg": "../images/1.jpg",
+                    "blocked": "false"
+                },
+                {
+                    "custNo": "365588",
+                    "custName": "Mohammad Abd",
+                    "title": "Mr",
+                    "email": "abd@yahoo.com",
+                    "phone": "0584848",
+                    "gender": "M",
+                    "custImg": "../images/2.jpg",
+                    "blocked": "false"
+                }
+            ]
+        },
+        {
+            "country": "Lebannon",
+            "customers": [
+                {
+                    "custNo": "33366",
+                    "custName": "Jaber Saeed",
+                    "title": "Mr",
+                    "email": "jaber@yahoo.com",
+                    "phone": "32660000",
+                    "gender": "M",
+                    "custImg": "../images/3.jpg",
+                    "blocked": "false"
+                },
+                {
+                    "custNo": "49849459",
+                    "custName": "Israa Ahmad",
+                    "title": "Mr",
+                    "email": "esraa@yahoo.com",
+                    "phone": "3115446888",
+                    "gender": "M",
+                    "custImg": "../images/4.jpg",
+                    "blocked": "false"
+                },
+                {
+                    "custNo": "1001422",
+                    "custName": "Adel Abdalluah",
+                    "title": "Mr",
+                    "email": "adel@yahoo.com",
+                    "phone": "011685698",
+                    "gender": "M",
+                    "custImg": "../images/5.jpg",
+                    "blocked": "false"
+                }
+            ]
+        },
+        {
+            "country": "Iraq",
+            "customers": [
+                {
+                    "custNo": "795956",
+                    "custName": "Jasem Ebo",
+                    "title": "Mr",
+                    "email": "jasem@yahoo.com",
+                    "phone": "96325854",
+                    "gender": "M",
+                    "custImg": "../images/6.jpg",
+                    "blocked": "false"
+                }
+            ]
+        }
+    ]
+}
